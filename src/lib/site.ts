@@ -21,6 +21,7 @@ export const site = {
 } as const;
 
 export const navigation = [
+  { label: "Courses", href: "/courses" },
   { label: "Programs", href: "/programs" },
   { label: "The Method", href: "/method" },
   { label: "About", href: "/about" },
