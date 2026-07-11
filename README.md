@@ -78,3 +78,5 @@ src/
   no client JS on content pages except header/menu, form, and accordion.
 - **Maintainability**: content as typed data, design tokens in one file,
   one Container width, one Section rhythm — no hardcoded values in pages.
+
+  
