@@ -21,10 +21,10 @@ export const site = {
 } as const;
 
 export const navigation = [
-  { label: "Courses", href: "/courses" },
-  { label: "Blog", href: "/blog" },
-  { label: "Programs", href: "/programs" },
-  { label: "The Method", href: "/method" },
+  { label: "The Academy", href: "/courses" },
+  { label: "Discover Germany", href: "/germany" },
+  { label: "The Journal", href: "/blog" },
+  { label: "Mentorship", href: "/programs" },
   { label: "About", href: "/about" },
-  { label: "Success Stories", href: "/stories" },
+  { label: "Journeys", href: "/stories" },
 ] as const;

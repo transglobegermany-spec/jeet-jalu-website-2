@@ -6,7 +6,7 @@ import { CtaBand } from "@/components/shared/cta-band";
 import { stories } from "@/data/stories";
 
 export const metadata: Metadata = {
-  title: "Success Stories",
+  title: "Journeys — Student Success Stories",
   description:
     "Real students, real outcomes — nursing contracts, master's admissions, and careers built in Germany. Long-form stories, not star ratings.",
 };

@@ -7,7 +7,7 @@ import { CtaBand } from "@/components/shared/cta-band";
 import { BookOpen, Users, Award } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Premium Courses",
+  title: "The Academy",
   description:
     "Learn German with premium, interactive courses. Offline-compatible, lifetime access.",
 };
@@ -60,7 +60,7 @@ export default function CoursesPage() {
       <section className="border-b border-mist py-20 sm:py-28">
         <Container className="max-w-3xl">
           <p className="font-sans text-xs font-semibold uppercase tracking-caps text-gold-deep">
-            Premium Learning
+            The Academy
           </p>
           <h1 className="mt-5 font-display text-4xl font-medium leading-tight text-ink sm:text-5xl">
             Learn German at your pace.

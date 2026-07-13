@@ -107,7 +107,7 @@ export default function ResourcesPage() {
 
               <a
                 href="#"
-                className="mt-10 block w-full bg-gold px-8 py-4 font-sans text-base font-medium text-white text-center transition-opacity hover:opacity-90"
+                className="mt-10 block w-full bg-forest px-8 py-4 font-sans text-base font-medium text-cream text-center transition-opacity hover:opacity-90"
                 title="Razorpay payment link — setup required"
               >
                 <Download aria-hidden="true" className="mb-1 inline h-4 w-4" /> Get Instant Download

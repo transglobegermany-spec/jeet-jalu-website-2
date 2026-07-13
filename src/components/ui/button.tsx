@@ -8,13 +8,13 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        primary: "bg-ink text-cream hover:bg-ink-soft",
+        primary: "bg-forest text-cream hover:bg-forest-deep",
         onDark: "bg-cream text-ink hover:bg-white",
         outline:
           "border border-ink/25 text-ink hover:border-ink hover:bg-ink/[0.03]",
         outlineOnDark:
           "border border-cream/30 text-cream hover:border-cream hover:bg-cream/5",
-        gold: "bg-gold text-white hover:bg-gold-deep",
+        gold: "bg-gold text-ink hover:bg-gold/90",
         ghost: "text-ink hover:text-gold-deep",
       },
       size: {

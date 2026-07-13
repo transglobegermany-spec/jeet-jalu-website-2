@@ -174,7 +174,7 @@ export function CourseCheckout({ courseName, price }: CourseCheckoutProps) {
       <button
         type="submit"
         disabled={loading}
-        className="w-full bg-gold px-8 py-4 font-sans text-base font-medium text-white transition-colors hover:bg-gold-deep disabled:cursor-not-allowed disabled:opacity-60"
+        className="w-full bg-forest px-8 py-4 font-sans text-base font-medium text-cream transition-colors hover:bg-forest-deep disabled:cursor-not-allowed disabled:opacity-60"
       >
         {loading ? "Opening secure checkout…" : `Pay ₹${price} · Get instant access`}
       </button>

@@ -11,23 +11,29 @@ const config: Config = {
     extend: {
       colors: {
         ink: {
-          DEFAULT: "#141414",
-          soft: "#2A2A28",
+          DEFAULT: "#202020", // rich charcoal
+          soft: "#2C2B27",
         },
         paper: {
-          DEFAULT: "#FAF9F6",
-          raised: "#FFFFFF",
+          DEFAULT: "#F8F6F1", // warm ivory
+          raised: "#FFFDF8", // warm white
         },
         slate: {
-          DEFAULT: "#5C5C57",
-          light: "#8A8A83",
+          DEFAULT: "#57544C", // warm secondary text
+          light: "#8B867A",
         },
-        mist: "#E4E2DA",
+        mist: "#E5DFD3", // soft stone hairlines
+        stone: "#EFEAE2", // secondary background
         gold: {
-          DEFAULT: "#B8862B",
-          deep: "#8F6716",
+          DEFAULT: "#C9A86A", // champagne gold
+          deep: "#7C6434", // accessible gold for text on ivory
         },
-        cream: "#F5F4EF",
+        cream: "#F3EFE6",
+        forest: {
+          DEFAULT: "#0F4C3A", // deep forest green — primary accent
+          deep: "#0B3A2C",
+          soft: "#16614B",
+        },
       },
       fontFamily: {
         display: ["Fraunces", "Georgia", "serif"],
