@@ -7,7 +7,7 @@ export function ProgramCard({ program }: { program: Program }) {
   return (
     <Link
       href={`/programs/${program.slug}`}
-      className="group flex h-full flex-col justify-between border border-mist bg-paper-raised p-8 transition-colors duration-200 hover:border-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
+      className="group flex h-full flex-col justify-between border border-mist bg-paper-raised p-8 transition-[border-color,transform] duration-300 ease-soft hover:-translate-y-0.5 hover:border-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
     >
       <div>
         <p className="font-sans text-xs font-semibold uppercase tracking-caps text-gold-deep">

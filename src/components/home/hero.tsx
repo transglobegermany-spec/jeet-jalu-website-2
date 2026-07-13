@@ -58,18 +58,18 @@ export function Hero() {
         <div className="mt-12 flex animate-fade-up flex-col items-center justify-center gap-6 [animation-delay:300ms] sm:flex-row">
           <Link
             href="/apply"
-            className="inline-flex h-14 items-center bg-cream px-10 font-sans text-base font-medium text-ink transition-colors hover:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-ink"
+            className="inline-flex h-14 items-center bg-cream px-10 font-sans text-base font-medium text-ink transition-colors duration-300 ease-soft hover:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-ink"
           >
             Apply for admission
           </Link>
           <Link
             href="/programs"
-            className="group inline-flex items-center gap-1.5 font-sans text-[15px] font-medium text-gold transition-colors hover:text-cream focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
+            className="group inline-flex items-center gap-1.5 font-sans text-[15px] font-medium text-gold transition-colors duration-300 ease-soft hover:text-cream focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
           >
             Explore the programs
             <ArrowRight
               aria-hidden="true"
-              className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-0.5"
+              className="h-4 w-4 transition-transform duration-300 ease-soft group-hover:translate-x-0.5"
             />
           </Link>
         </div>

@@ -78,8 +78,8 @@ export default function CoursesPage() {
             return (
               <div
                 key={course.slug}
-                className={`grid gap-10 border ${
-                  course.highlight ? "border-gold bg-paper-raised" : "border-mist bg-paper-raised"
+                className={`grid gap-10 border transition-[border-color,transform] duration-300 ease-soft hover:-translate-y-0.5 ${
+                  course.highlight ? "border-gold bg-paper-raised" : "border-mist bg-paper-raised hover:border-gold/40"
                 } p-8 lg:grid-cols-[1fr_1fr] lg:items-center`}
               >
                 <div>

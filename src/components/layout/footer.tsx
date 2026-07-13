@@ -34,7 +34,7 @@ export function Footer() {
                 <li key={item.href}>
                   <Link
                     href={item.href}
-                    className="text-sm text-cream/70 transition-colors hover:text-cream focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
+                    className="text-sm text-cream/70 transition-colors duration-300 ease-soft hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
                   >
                     {item.label}
                   </Link>
@@ -43,7 +43,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/apply"
-                  className="text-sm text-cream/70 transition-colors hover:text-cream focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
+                  className="text-sm text-cream/70 transition-colors duration-300 ease-soft hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
                 >
                   Apply
                 </Link>
@@ -59,7 +59,7 @@ export function Footer() {
               <li>
                 <a
                   href={`mailto:${site.email}`}
-                  className="transition-colors hover:text-cream focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
+                  className="transition-colors duration-300 ease-soft hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
                 >
                   {site.email}
                 </a>
@@ -70,7 +70,7 @@ export function Footer() {
                   <a
                     key={name}
                     href={href}
-                    className="capitalize transition-colors hover:text-cream focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
+                    className="capitalize transition-colors duration-300 ease-soft hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
                   >
                     {name}
                   </a>

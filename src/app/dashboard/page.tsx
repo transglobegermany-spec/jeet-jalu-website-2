@@ -91,7 +91,7 @@ export default function DashboardPage() {
           <div className="grid gap-5 md:grid-cols-2">
             <Link
               href="/courses"
-              className="group flex flex-col border border-cream/10 bg-ink-soft/60 p-8 transition-colors duration-300 hover:border-gold/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
+              className="group flex flex-col border border-cream/10 bg-ink-soft/60 p-8 transition-[border-color,transform] duration-300 ease-soft hover:-translate-y-0.5 hover:border-gold/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
             >
               <p className="font-sans text-[11px] font-semibold uppercase tracking-caps text-gold">
                 Courses
@@ -116,7 +116,7 @@ export default function DashboardPage() {
               href={downloadUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex flex-col border border-cream/10 bg-ink-soft/60 p-8 transition-colors duration-300 hover:border-gold/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
+              className="group flex flex-col border border-cream/10 bg-ink-soft/60 p-8 transition-[border-color,transform] duration-300 ease-soft hover:-translate-y-0.5 hover:border-gold/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
             >
               <p className="font-sans text-[11px] font-semibold uppercase tracking-caps text-gold">
                 Interactive Notes
@@ -140,7 +140,7 @@ export default function DashboardPage() {
               href={downloadUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex flex-col border border-cream/10 bg-ink-soft/60 p-8 transition-colors duration-300 hover:border-gold/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
+              className="group flex flex-col border border-cream/10 bg-ink-soft/60 p-8 transition-[border-color,transform] duration-300 ease-soft hover:-translate-y-0.5 hover:border-gold/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
             >
               <p className="font-sans text-[11px] font-semibold uppercase tracking-caps text-gold">
                 Downloads

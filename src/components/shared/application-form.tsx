@@ -17,7 +17,7 @@ import { site } from "@/lib/site";
  */
 
 const fieldClasses =
-  "w-full border border-mist bg-paper-raised px-4 py-3 font-sans text-sm text-ink placeholder:text-slate-light focus:border-ink focus:outline-none focus:ring-2 focus:ring-gold";
+  "w-full border border-mist bg-paper-raised px-4 py-3 font-sans text-sm text-ink placeholder:text-slate-light transition-[border-color,box-shadow] duration-300 ease-soft focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/25";
 
 export function ApplicationForm() {
   const [submitted, setSubmitted] = React.useState(false);

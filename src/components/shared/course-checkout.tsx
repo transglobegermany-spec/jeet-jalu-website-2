@@ -140,7 +140,7 @@ export function CourseCheckout({ courseName, price }: CourseCheckoutProps) {
           value={name}
           onChange={(e) => setName(e.target.value)}
           placeholder="Your name"
-          className="w-full border border-mist bg-paper px-4 py-3 font-sans text-sm text-ink placeholder:text-slate-light focus:border-ink focus:outline-none focus:ring-2 focus:ring-gold"
+          className="w-full border border-mist bg-paper px-4 py-3 font-sans text-sm text-ink placeholder:text-slate-light transition-[border-color,box-shadow] duration-300 ease-soft focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/25"
         />
       </div>
 
@@ -158,7 +158,7 @@ export function CourseCheckout({ courseName, price }: CourseCheckoutProps) {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder="you@example.com"
-          className="w-full border border-mist bg-paper px-4 py-3 font-sans text-sm text-ink placeholder:text-slate-light focus:border-ink focus:outline-none focus:ring-2 focus:ring-gold"
+          className="w-full border border-mist bg-paper px-4 py-3 font-sans text-sm text-ink placeholder:text-slate-light transition-[border-color,box-shadow] duration-300 ease-soft focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/25"
         />
         <p className="mt-2 text-xs text-slate-light">
           Your download link is sent here. Please check it&rsquo;s correct.

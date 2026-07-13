@@ -58,7 +58,7 @@ export function ProgressCard() {
   const pct = Math.round((done.size / MODULES.length) * 100);
 
   return (
-    <div className="flex h-full flex-col border border-cream/10 bg-ink-soft/60 p-8 transition-colors duration-300 hover:border-gold/40">
+    <div className="flex h-full flex-col border border-cream/10 bg-ink-soft/60 p-8 transition-[border-color,transform] duration-300 ease-soft hover:-translate-y-0.5 hover:border-gold/40">
       <p className="font-sans text-[11px] font-semibold uppercase tracking-caps text-gold">
         Progress
       </p>

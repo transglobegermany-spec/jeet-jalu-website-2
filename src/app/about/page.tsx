@@ -9,18 +9,13 @@ import { CtaBand } from "@/components/shared/cta-band";
 export const metadata: Metadata = {
   title: "About Jeet Jalu",
   description:
-    "Jeet Jalu lived, studied, and worked in Germany — and now mentors students, professionals, and Ausbildung aspirants through the same journey.",
+    "Jeet Jalu lived and studied in Germany — engineering, taught entirely in German. Now he prepares students for the exam, the country, and the life.",
 };
 
-/*
- * NOTE FOR JEET: the story below is a structured draft written from your
- * brief. Replace the bracketed details with your real dates, cities, and
- * specifics — the structure (arrival → struggle → learning → return → why)
- * is designed for trust and should stay.
- */
 export default function AboutPage() {
   return (
     <>
+      {/* Hero */}
       <section className="border-b border-mist py-20 sm:py-28">
         <Container>
           <div className="grid items-center gap-14 lg:grid-cols-2">
@@ -29,13 +24,13 @@ export default function AboutPage() {
                 About
               </p>
               <h1 className="mt-5 font-display text-4xl font-medium leading-tight text-ink sm:text-5xl">
-                I lived it before I taught it.
+                I became the guide I never had.
               </h1>
               <p className="mt-6 max-w-prose text-base leading-relaxed text-slate sm:text-lg">
-                I&rsquo;m Jeet Jalu. Everything I teach — the language, the
-                culture, the paperwork, the patience — I learned first as a
-                student of it, standing in the same queues you&rsquo;ll stand
-                in.
+                I&rsquo;m Jeet Jalu. I teach German and prepare people for
+                Germany — the language, the system, and the life. I can do
+                this for one reason: I lived every mistake I now help you
+                avoid.
               </p>
               <GermanWord
                 word="Erfahrung"
@@ -51,87 +46,96 @@ export default function AboutPage() {
         </Container>
       </section>
 
+      {/* The story — short */}
       <Section aria-labelledby="story-heading">
         <div className="mx-auto max-w-prose">
-          <SectionHeading eyebrow="The story" title="From learner to mentor." />
-          <div className="mt-8 space-y-6 text-base leading-relaxed text-slate">
-            <p>
-              When I arrived in Germany [TODO: year and city], I had textbook
-              German and real-world silence. I could conjugate verbs; I
-              couldn&rsquo;t open a bank account. That gap — between what
-              institutes teach and what Germany demands — is the reason this
-              brand exists.
-            </p>
-            <p>
-              Over my years there [TODO: your specifics — study, work,
-              city], I learned the language the way it actually gets learned:
-              in kitchens, offices, government waiting rooms, and
-              conversations I was terrified to start. I learned that German
-              precision isn&rsquo;t a stereotype, it&rsquo;s a culture — and
-              that once you understand the culture, the language finally makes
-              sense.
-            </p>
-            <p>
-              When I returned to India, I saw the industry from the other
-              side: exam factories, agencies selling guarantees they
-              can&rsquo;t keep, and students paying for shortcuts that lead
-              nowhere. I decided to build the opposite — a small, honest,
-              premium education brand that prepares people for Germany the way
-              I wish I had been prepared.
-            </p>
-            <p>
-              That&rsquo;s the whole story. No franchise, no batch factory, no
-              guarantees I can&rsquo;t stand behind. Just real German, real
-              culture, and a mentor who has made the journey — walking it
-              again with every student.
-            </p>
+          <SectionHeading eyebrow="The story" title="Four chapters, honestly told." />
+          <div className="mt-10 space-y-10">
+            <div>
+              <h3 className="font-display text-xl font-medium text-ink">
+                A boy, a book, one page.
+              </h3>
+              <p className="mt-3 text-base leading-relaxed text-slate">
+                In my childhood home in Rajkot there was an encyclopedia. I
+                kept returning to one page — Germany. I loved cars, and every
+                machine I admired came from that one country. When a friend
+                later told me German universities were tuition-free, I
+                researched the entire path myself. There was no one to ask.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-display text-xl font-medium text-ink">
+                A smooth promise, a hard landing.
+              </h3>
+              <p className="mt-3 text-base leading-relaxed text-slate">
+                A consultant sold my family an easy plan — and left out that
+                Studienkolleg requires a competitive entrance exam. I learned
+                the truth standing inside Germany, money spent, plan in
+                pieces. It cost me a year. It&rsquo;s why I verify everything
+                at the source today, and say the uncomfortable truths in the
+                first meeting — not the fine print.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-display text-xl font-medium text-ink">
+                Engineering, in German, in Bavaria.
+              </h3>
+              <p className="mt-3 text-base leading-relaxed text-slate">
+                I ended up in a small Bavarian town, in a program taught
+                entirely in German — Bavarian German. For a year I understood
+                fragments of lectures, then studied everything twice: the
+                engineering, and the language beneath it. Fluency
+                wasn&rsquo;t an achievement for me. It was survival. And
+                Germany humbled me in other ways too — I made the mistakes
+                nobody warns you about, and my journey there ended in a way I
+                never planned.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-display text-xl font-medium text-ink">
+                Every student is me, five years earlier.
+              </h3>
+              <p className="mt-3 text-base leading-relaxed text-slate">
+                Back in Rajkot, I began teaching German — and understood why
+                everything had happened. I know which false promises
+                you&rsquo;ll be told, because I believed them. I know how
+                Germany tests you, because it tested me. So I teach the
+                language seriously — and alongside it, what nobody taught me:
+                money, discipline, self-command.
+              </p>
+            </div>
           </div>
+
+          {/* Pull quote */}
+          <blockquote className="mt-14 border-l-2 border-gold pl-6">
+            <p className="font-display text-2xl font-medium italic leading-snug text-ink">
+              &bdquo;Do the hard work here, so life is easy there.&ldquo;
+            </p>
+            <cite className="mt-3 block font-sans text-xs uppercase not-italic tracking-caps text-slate-light">
+              The rule every student hears in our first meeting
+            </cite>
+          </blockquote>
         </div>
       </Section>
 
-      <Section tone="dark" aria-labelledby="values-heading">
-        <SectionHeading
-          onDark
-          align="center"
-          eyebrow="What I stand for"
-          title="Three promises to every student."
-        />
-        <div className="mx-auto mt-12 grid max-w-4xl gap-5 md:grid-cols-3">
-          {[
-            {
-              word: "Ehrlichkeit",
-              title: "Honesty first",
-              text: "Real timelines, real requirements, real chances — even when the honest answer costs me a student.",
-            },
-            {
-              word: "Qualität",
-              title: "Quality over volume",
-              text: "Small groups and selective admission, because I would rather teach fewer people properly.",
-            },
-            {
-              word: "Begleitung",
-              title: "With you throughout",
-              text: "From your first Hallo to your first day in Germany — mentorship doesn't end when class does.",
-            },
-          ].map((v) => (
-            <div key={v.word} className="border border-cream/15 p-8 text-center">
-              <p className="font-display text-xl font-medium italic text-gold">
-                {v.word}
-              </p>
-              <h3 className="mt-4 font-sans text-sm font-semibold text-cream">
-                {v.title}
-              </h3>
-              <p className="mt-3 text-sm leading-relaxed text-cream/70">
-                {v.text}
-              </p>
-            </div>
-          ))}
+      {/* Today */}
+      <Section tone="dark" aria-labelledby="today-heading">
+        <div className="mx-auto max-w-prose text-center">
+          <SectionHeading
+            onDark
+            eyebrow="Today"
+            title="Germany, done right."
+            lede="I coach German from A1 to C1, guide university admissions, and build career pathways into Germany. My students live and work in Stuttgart, Munich, and Aachen — and when a difficult moment comes, my advice is the voice in their head that carries them through. That's the only review I care about."
+          />
         </div>
       </Section>
 
       <CtaBand
-        title="Let's talk about your Germany."
-        lede="The application takes five minutes. The readiness call is an honest conversation, not a sales pitch."
+        title="Ready to do it right?"
+        lede="Start with an honest conversation about your path — the truth in the first meeting, always."
       />
     </>
   );

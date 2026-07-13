@@ -22,6 +22,7 @@ export const site = {
 
 export const navigation = [
   { label: "Courses", href: "/courses" },
+  { label: "Blog", href: "/blog" },
   { label: "Programs", href: "/programs" },
   { label: "The Method", href: "/method" },
   { label: "About", href: "/about" },

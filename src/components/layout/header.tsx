@@ -18,11 +18,11 @@ export function Header() {
   React.useEffect(() => setOpen(false), [pathname]);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-mist bg-paper/90 backdrop-blur-sm">
+    <header className="sticky top-0 z-50 border-b border-mist bg-paper/80 backdrop-blur-md">
       <Container className="flex h-16 items-center justify-between sm:h-20">
         <Link
           href="/"
-          className="font-sans text-sm font-semibold uppercase tracking-caps text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
+          className="font-sans text-sm font-semibold uppercase tracking-caps text-ink transition-colors duration-300 ease-soft hover:text-gold-deep focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
         >
           {site.name}
         </Link>
@@ -34,7 +34,7 @@ export function Header() {
               href={item.href}
               aria-current={pathname.startsWith(item.href) ? "page" : undefined}
               className={cn(
-                "font-sans text-sm transition-colors hover:text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold",
+                "nav-link hover:text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold",
                 pathname.startsWith(item.href)
                   ? "font-medium text-ink"
                   : "text-slate"
